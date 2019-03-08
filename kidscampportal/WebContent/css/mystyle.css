@@ -1,0 +1,36 @@
+ul
+{
+margin:0px;
+padding:0px;
+list-style-type: none;
+}
+ ul li
+{
+background-color:skyblue;
+height:50px;
+width:400px;
+float:left;
+line-height:50px;
+text-align:center;
+border:1px solid white;
+font-size:40px;
+text-align:center;
+}
+ul li a
+{
+	text-decoration:none;
+	color:red;
+	display:block;
+} 
+ul li a:hover
+{
+	background:green;
+}
+ul li ul li
+{
+	display:none;
+}
+ul li:hover ul li
+{
+	display:block;
+}
